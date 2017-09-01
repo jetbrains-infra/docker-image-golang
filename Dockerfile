@@ -1,4 +1,4 @@
-FROM golang:1.9.0
+FROM golang:1.8.3
 ARG GLIDE_VERSION=0.12.3
 
 RUN mkdir -p /opt/glide \
