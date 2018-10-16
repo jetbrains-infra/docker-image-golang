@@ -1,6 +1,6 @@
 FROM golang:1.10.4
 ARG GLIDE_VERSION=0.12.3
-ARG DEP_VERSION=0.4.1
+ARG DEP_VERSION=0.5.0
 
 RUN mkdir -p /opt/glide \
  && wget -nv https://github.com/Masterminds/glide/releases/download/v$GLIDE_VERSION/glide-v$GLIDE_VERSION-linux-amd64.tar.gz -O- | \
