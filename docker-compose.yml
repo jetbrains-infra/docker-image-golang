@@ -1,0 +1,6 @@
+version: '2'
+services:
+  image:
+    image: jetbrainsinfra/golang:1.11.3
+    build:
+      context: .
