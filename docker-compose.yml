@@ -1,6 +1,6 @@
 version: '2'
 services:
   image:
-    image: jetbrainsinfra/golang:1.11.3
+    image: jetbrainsinfra/golang:$VERSION
     build:
       context: .
